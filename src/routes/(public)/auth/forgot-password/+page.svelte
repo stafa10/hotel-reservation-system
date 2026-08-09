@@ -1,0 +1,22 @@
+<script>
+	let { form } = $props();
+</script>
+
+<h1>Forgot Password</h1>
+
+<form method="POST">
+	<input
+		type="email"
+		name="email"
+		placeholder="Enter your email"
+		required
+	/>
+
+	<button type="submit">
+		Send Reset Link
+	</button>
+</form>
+
+{#if form?.message}
+	<p>{form.message}</p>
+{/if}

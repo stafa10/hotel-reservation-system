@@ -1,0 +1,39 @@
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+# Playwright
+test-results
+# SQLite
+*.db
+
+/src/generated/prisma
+
+# Large video files
+*.mp4git 
+
+# Local/private files
+api key.txt
+*.sqbpro
+
+# Large video files
+*.mp4
